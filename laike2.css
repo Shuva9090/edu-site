@@ -1,0 +1,92 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header */
+.navbar {
+    background: #2a2a72;
+    color: white;
+    padding: 1em;
+}
+.navbar .logo {
+    display: inline-block;
+    font-size: 1.7rem;
+}
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background: #6c63ff;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+.hero .btn {
+    background: #ffdd57;
+    padding: .7em 1.3em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #2a2a72;
+    font-weight: bold;
+}
+
+/* Services */
+.service-box {
+    background: white;
+    padding: 1.2em;
+    border-radius: 8px;
+    margin-top: 1.5em;
+}
+
+/* Gallery */
+.gallery .grid {
+    display: flex;
+    gap: .8em;
+    margin: 1em 0;
+}
+.gallery img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+/* Testimonials */
+.testimonials {
+    margin: 2em 0;
+}
+blockquote {
+    background: white;
+    padding: 1em;
+    border-left: 5px solid #6c63ff;
+    font-style: italic;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background: #ddd;
+}
